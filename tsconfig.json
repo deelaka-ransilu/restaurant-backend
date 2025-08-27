@@ -1,0 +1,17 @@
+// TypeScript configuration file
+{
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src", //Source files directory
+    "outDir": "./dist", //Output directory for compiled files
+    // Language and Environment
+    "module": "CommonJS", //Module system
+    "target": "ES6", //JavaScript version
+    // Recommended Best Practices
+    "strict": true, //Enable all strict type-checking options
+    "esModuleInterop": true //Fixes common issue with 'import' syntax
+  },
+  //File Selection
+  "include": ["src/**/*"], //Include all TypeScript files in src
+  "exclude": ["node_modules", "dist"] //Exclude node_modules and dist directories
+}
